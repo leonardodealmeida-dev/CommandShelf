@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "navigation-001",
+    "title": "Show current directory",
+    "command": "pwd",
+    "category": "Navigation",
+    "description": "Prints the full path of the current working directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-002",
+    "title": "List files",
+    "command": "ls",
+    "category": "Navigation",
+    "description": "Lists files and directories in the current directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-003",
+    "title": "List all files with details",
+    "command": "ls -lah",
+    "category": "Navigation",
+    "description": "Includes hidden files and human-readable sizes.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-004",
+    "title": "Change directory",
+    "command": "cd /path/to/folder",
+    "category": "Navigation",
+    "description": "Changes the shell's current directory.",
+    "example": "Replace the sample path.",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-005",
+    "title": "Go to home directory",
+    "command": "cd ~",
+    "category": "Navigation",
+    "description": "Moves to your home directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-006",
+    "title": "Return to previous directory",
+    "command": "cd -",
+    "category": "Navigation",
+    "description": "Switches to the previous working directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-007",
+    "title": "Create directory",
+    "command": "mkdir new_folder",
+    "category": "Navigation",
+    "description": "Creates a directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "navigation-008",
+    "title": "Create nested directories",
+    "command": "mkdir -p path/to/folder",
+    "category": "Navigation",
+    "description": "Creates parent directories as needed.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-009",
+    "title": "Create empty file",
+    "command": "touch notes.txt",
+    "category": "Files",
+    "description": "Creates a file or updates its modification timestamp.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-010",
+    "title": "Copy a file",
+    "command": "cp source.txt copy.txt",
+    "category": "Files",
+    "description": "Copies a file to a destination.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-011",
+    "title": "Copy a directory",
+    "command": "cp -r source_dir backup_dir",
+    "category": "Files",
+    "description": "Copies a directory and its contents.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-012",
+    "title": "Move or rename",
+    "command": "mv old.txt new.txt",
+    "category": "Files",
+    "description": "Moves or renames a file or directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-013",
+    "title": "Remove empty directory",
+    "command": "rmdir empty_folder",
+    "category": "Files",
+    "description": "Removes an empty directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-014",
+    "title": "Remove a file",
+    "command": "rm filename.txt",
+    "category": "Files",
+    "description": "Deletes the specified file. Check the path before using.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "files-015",
+    "title": "View file contents",
+    "command": "cat notes.txt",
+    "category": "Files",
+    "description": "Prints a file's contents in the terminal.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-016",
+    "title": "Read long text page by page",
+    "command": "less /var/log/syslog",
+    "category": "Files",
+    "description": "Opens text in a pager; press q to quit.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-017",
+    "title": "Show first lines",
+    "command": "head -n 20 file.txt",
+    "category": "Files",
+    "description": "Prints the first 20 lines.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-018",
+    "title": "Show last lines",
+    "command": "tail -n 20 file.txt",
+    "category": "Files",
+    "description": "Prints the last 20 lines.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-019",
+    "title": "Follow a log file",
+    "command": "tail -f app.log",
+    "category": "Files",
+    "description": "Continuously displays new lines appended to a file; Ctrl+C stops it.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-020",
+    "title": "Identify file type",
+    "command": "file filename",
+    "category": "Files",
+    "description": "Reports the detected file type.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-021",
+    "title": "Disk usage of a folder",
+    "command": "du -sh folder/",
+    "category": "Files",
+    "description": "Shows total size of a folder.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-022",
+    "title": "Filesystem free space",
+    "command": "df -h",
+    "category": "Files",
+    "description": "Shows used and available space for mounted filesystems.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-023",
+    "title": "List block devices",
+    "command": "lsblk",
+    "category": "Files",
+    "description": "Lists disks and partitions.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-024",
+    "title": "Find files by name",
+    "command": "find . -name '*.py'",
+    "category": "Files",
+    "description": "Searches recursively from the current folder for Python files.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-025",
+    "title": "Find files by type",
+    "command": "find . -type f",
+    "category": "Files",
+    "description": "Lists regular files below the current directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-026",
+    "title": "Find recently changed files",
+    "command": "find . -type f -mtime -1",
+    "category": "Files",
+    "description": "Finds files modified within roughly the last day.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-027",
+    "title": "Search text in files",
+    "command": "grep -Rni 'TODO' .",
+    "category": "Files",
+    "description": "Searches recursively, ignores case, and shows line numbers.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-028",
+    "title": "Count lines, words, bytes",
+    "command": "wc -l file.txt",
+    "category": "Files",
+    "description": "Counts lines; use -w for words or -c for bytes.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "files-029",
+    "title": "Create a symbolic link",
+    "command": "ln -s target link_name",
+    "category": "Files",
+    "description": "Creates a symbolic link pointing to a target.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "permissions-030",
+    "title": "Show file permissions",
+    "command": "ls -l",
+    "category": "Permissions",
+    "description": "Displays permissions, owner, group, size, and timestamp.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "permissions-031",
+    "title": "Change file permissions",
+    "command": "chmod u+x script.sh",
+    "category": "Permissions",
+    "description": "Adds execute permission for the file owner.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "permissions-032",
+    "title": "Change file owner",
+    "command": "sudo chown user:group file",
+    "category": "Permissions",
+    "description": "Changes ownership; requires care and may require administrator privileges.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "permissions-033",
+    "title": "Show current user",
+    "command": "whoami",
+    "category": "Permissions",
+    "description": "Prints the current username.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "permissions-034",
+    "title": "Show user and group IDs",
+    "command": "id",
+    "category": "Permissions",
+    "description": "Displays user ID, group ID, and group memberships.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "permissions-035",
+    "title": "List groups",
+    "command": "groups",
+    "category": "Permissions",
+    "description": "Shows the groups the current user belongs to.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-036",
+    "title": "Kernel and system info",
+    "command": "uname -a",
+    "category": "System",
+    "description": "Displays kernel and system information.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-037",
+    "title": "Linux distribution info",
+    "command": "cat /etc/os-release",
+    "category": "System",
+    "description": "Shows distribution name and version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-038",
+    "title": "Show uptime",
+    "command": "uptime",
+    "category": "System",
+    "description": "Shows how long the system has been running and load averages.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-039",
+    "title": "Show date and time",
+    "command": "date",
+    "category": "System",
+    "description": "Prints the system date and time.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-040",
+    "title": "Calendar",
+    "command": "cal",
+    "category": "System",
+    "description": "Displays a calendar in the terminal.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-041",
+    "title": "Environment variables",
+    "command": "printenv",
+    "category": "System",
+    "description": "Lists environment variables.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-042",
+    "title": "Show PATH",
+    "command": "echo \"$PATH\"",
+    "category": "System",
+    "description": "Displays directories searched for executables.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-043",
+    "title": "Locate executable",
+    "command": "command -v python3",
+    "category": "System",
+    "description": "Shows how the shell resolves a command.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-044",
+    "title": "Manual page",
+    "command": "man grep",
+    "category": "System",
+    "description": "Opens a command's manual page; press q to quit.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "system-045",
+    "title": "Search manual descriptions",
+    "command": "apropos network",
+    "category": "System",
+    "description": "Searches manual page summaries for a keyword.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-046",
+    "title": "List processes",
+    "command": "ps aux",
+    "category": "Processes",
+    "description": "Displays running processes.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-047",
+    "title": "Interactive process monitor",
+    "command": "top",
+    "category": "Processes",
+    "description": "Shows processes and resource usage; press q to quit.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-048",
+    "title": "Check memory",
+    "command": "free -h",
+    "category": "Processes",
+    "description": "Shows memory and swap usage.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-049",
+    "title": "Watch a command",
+    "command": "watch -n 2 df -h",
+    "category": "Processes",
+    "description": "Repeats a command every two seconds; Ctrl+C stops it.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-050",
+    "title": "List open files for a process",
+    "command": "lsof -p PID",
+    "category": "Processes",
+    "description": "Shows files opened by a process; replace PID.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-051",
+    "title": "Show process tree",
+    "command": "pstree -p",
+    "category": "Processes",
+    "description": "Displays processes in a tree.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "processes-052",
+    "title": "Stop a process by PID",
+    "command": "kill PID",
+    "category": "Processes",
+    "description": "Requests a process to stop; replace PID with the correct process ID.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "packages-053",
+    "title": "Refresh APT package lists",
+    "command": "sudo apt update",
+    "category": "Packages",
+    "description": "Refreshes package metadata on Debian/Ubuntu-based systems.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "packages-054",
+    "title": "Upgrade installed packages",
+    "command": "sudo apt upgrade",
+    "category": "Packages",
+    "description": "Installs available upgrades; review the proposed changes before confirming.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "packages-055",
+    "title": "Install a package",
+    "command": "sudo apt install PACKAGE",
+    "category": "Packages",
+    "description": "Installs a package from configured repositories; replace PACKAGE.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "packages-056",
+    "title": "Search for a package",
+    "command": "apt search KEYWORD",
+    "category": "Packages",
+    "description": "Searches package names and descriptions.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "packages-057",
+    "title": "Show package information",
+    "command": "apt show PACKAGE",
+    "category": "Packages",
+    "description": "Displays metadata for a package.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "packages-058",
+    "title": "Remove a package",
+    "command": "sudo apt remove PACKAGE",
+    "category": "Packages",
+    "description": "Removes a package but may leave configuration files.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "packages-059",
+    "title": "List installed packages",
+    "command": "apt list --installed",
+    "category": "Packages",
+    "description": "Lists installed packages.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "packages-060",
+    "title": "Find which package owns a file",
+    "command": "dpkg -S /path/to/file",
+    "category": "Packages",
+    "description": "Looks up the package that installed a file.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "services-061",
+    "title": "Show service status",
+    "command": "systemctl status SERVICE",
+    "category": "Services",
+    "description": "Shows status and recent log lines for a service.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "services-062",
+    "title": "Start a service",
+    "command": "sudo systemctl start SERVICE",
+    "category": "Services",
+    "description": "Starts a system service now.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "services-063",
+    "title": "Restart a service",
+    "command": "sudo systemctl restart SERVICE",
+    "category": "Services",
+    "description": "Restarts a service; connected applications may be interrupted.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "services-064",
+    "title": "Enable service at boot",
+    "command": "sudo systemctl enable SERVICE",
+    "category": "Services",
+    "description": "Configures a service to start at boot.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "logs-065",
+    "title": "View system journal",
+    "command": "journalctl -b",
+    "category": "Logs",
+    "description": "Shows logs from the current boot.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "logs-066",
+    "title": "Show recent service logs",
+    "command": "journalctl -u SERVICE -n 100",
+    "category": "Logs",
+    "description": "Shows the last 100 journal entries for a service.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-067",
+    "title": "Show IP addresses",
+    "command": "ip address",
+    "category": "Networking",
+    "description": "Displays network interfaces and IP addresses.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-068",
+    "title": "Show routes",
+    "command": "ip route",
+    "category": "Networking",
+    "description": "Displays the routing table.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-069",
+    "title": "Test connectivity",
+    "command": "ping -c 4 example.com",
+    "category": "Networking",
+    "description": "Sends four ping requests; some networks block ping.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-070",
+    "title": "Check DNS lookup",
+    "command": "getent hosts example.com",
+    "category": "Networking",
+    "description": "Looks up a host using the system's configured name service.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-071",
+    "title": "Inspect listening ports",
+    "command": "ss -tuln",
+    "category": "Networking",
+    "description": "Lists listening TCP/UDP sockets and numeric ports.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-072",
+    "title": "Download a file",
+    "command": "curl -LO https://example.com/file.zip",
+    "category": "Networking",
+    "description": "Downloads a URL using curl; replace with the intended URL.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-073",
+    "title": "Fetch response headers",
+    "command": "curl -I https://example.com",
+    "category": "Networking",
+    "description": "Requests HTTP response headers.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-074",
+    "title": "Secure remote login",
+    "command": "ssh user@host",
+    "category": "Networking",
+    "description": "Connects to a remote machine; replace user and host.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-075",
+    "title": "Copy file over SSH",
+    "command": "scp file.txt user@host:/path/",
+    "category": "Networking",
+    "description": "Copies a file to a remote host over SSH.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "networking-076",
+    "title": "Show network manager devices",
+    "command": "nmcli device status",
+    "category": "Networking",
+    "description": "Shows network devices managed by NetworkManager.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "archives-077",
+    "title": "Create tar archive",
+    "command": "tar -czf archive.tar.gz folder/",
+    "category": "Archives",
+    "description": "Creates a gzip-compressed tar archive.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "archives-078",
+    "title": "Extract tar.gz archive",
+    "command": "tar -xzf archive.tar.gz",
+    "category": "Archives",
+    "description": "Extracts a gzip-compressed tar archive into the current directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "archives-079",
+    "title": "List archive contents",
+    "command": "tar -tzf archive.tar.gz",
+    "category": "Archives",
+    "description": "Lists files inside an archive without extracting them.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "archives-080",
+    "title": "Zip files",
+    "command": "zip -r archive.zip folder/",
+    "category": "Archives",
+    "description": "Creates a ZIP archive recursively; requires zip utility.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "archives-081",
+    "title": "Unzip archive",
+    "command": "unzip archive.zip",
+    "category": "Archives",
+    "description": "Extracts a ZIP archive.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "text-082",
+    "title": "Sort lines",
+    "command": "sort names.txt",
+    "category": "Text",
+    "description": "Sorts lines alphabetically according to the current locale.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "text-083",
+    "title": "Remove adjacent duplicate lines",
+    "command": "sort names.txt | uniq",
+    "category": "Text",
+    "description": "Sorts then removes duplicate adjacent lines.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "text-084",
+    "title": "Extract first column",
+    "command": "cut -d, -f1 data.csv",
+    "category": "Text",
+    "description": "Extracts the first comma-delimited field; simple CSV only.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "text-085",
+    "title": "Replace text in stream",
+    "command": "sed 's/old/new/g' file.txt",
+    "category": "Text",
+    "description": "Prints text with replacements; does not edit the file in place.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "text-086",
+    "title": "Print selected fields",
+    "command": "awk '{print $1}' file.txt",
+    "category": "Text",
+    "description": "Prints the first whitespace-separated field from each line.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "text-087",
+    "title": "Count matching lines",
+    "command": "grep -c 'error' app.log",
+    "category": "Text",
+    "description": "Counts lines matching a pattern.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-088",
+    "title": "Show command history",
+    "command": "history",
+    "category": "Shell",
+    "description": "Displays recent shell commands.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-089",
+    "title": "Clear terminal",
+    "command": "clear",
+    "category": "Shell",
+    "description": "Clears the terminal display.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-090",
+    "title": "Run last command again",
+    "command": "!!",
+    "category": "Shell",
+    "description": "Shell history expansion that repeats the previous command.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-091",
+    "title": "Run command in background",
+    "command": "some_command &",
+    "category": "Shell",
+    "description": "Starts a command in the background of the current shell.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-092",
+    "title": "Redirect output to file",
+    "command": "command > output.txt",
+    "category": "Shell",
+    "description": "Writes standard output to a file, replacing its previous contents.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-093",
+    "title": "Append output to file",
+    "command": "command >> output.txt",
+    "category": "Shell",
+    "description": "Appends standard output to a file.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "shell-094",
+    "title": "Pipe output to another command",
+    "command": "command1 | command2",
+    "category": "Shell",
+    "description": "Sends one command's output to another command's input.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-095",
+    "title": "Initialize repository",
+    "command": "git init",
+    "category": "Git",
+    "description": "Creates a Git repository in the current directory.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-096",
+    "title": "Clone repository",
+    "command": "git clone URL",
+    "category": "Git",
+    "description": "Downloads a repository; replace URL with its clone URL.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-097",
+    "title": "Check working tree",
+    "command": "git status",
+    "category": "Git",
+    "description": "Shows current branch and modified, staged, or untracked files.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-098",
+    "title": "Stage a file",
+    "command": "git add main.py",
+    "category": "Git",
+    "description": "Stages a file for the next commit.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-099",
+    "title": "Stage all changes",
+    "command": "git add .",
+    "category": "Git",
+    "description": "Stages changes in the current directory; inspect status first.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-100",
+    "title": "Commit staged changes",
+    "command": "git commit -m \"Describe change\"",
+    "category": "Git",
+    "description": "Records staged changes with a message.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-101",
+    "title": "View compact history",
+    "command": "git log --oneline -10",
+    "category": "Git",
+    "description": "Shows the latest ten commits.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-102",
+    "title": "Show differences",
+    "command": "git diff",
+    "category": "Git",
+    "description": "Shows unstaged changes.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-103",
+    "title": "Show staged differences",
+    "command": "git diff --staged",
+    "category": "Git",
+    "description": "Shows changes staged for commit.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-104",
+    "title": "List branches",
+    "command": "git branch",
+    "category": "Git",
+    "description": "Lists local branches.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-105",
+    "title": "Create a branch",
+    "command": "git switch -c feature-name",
+    "category": "Git",
+    "description": "Creates and switches to a new branch.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-106",
+    "title": "Switch branches",
+    "command": "git switch main",
+    "category": "Git",
+    "description": "Switches to an existing branch.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-107",
+    "title": "Fetch remote changes",
+    "command": "git fetch",
+    "category": "Git",
+    "description": "Downloads remote references without integrating them.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-108",
+    "title": "Pull remote changes",
+    "command": "git pull",
+    "category": "Git",
+    "description": "Fetches and integrates changes from the configured upstream.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-109",
+    "title": "Push commits",
+    "command": "git push",
+    "category": "Git",
+    "description": "Uploads local commits to the configured remote.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-110",
+    "title": "View remotes",
+    "command": "git remote -v",
+    "category": "Git",
+    "description": "Lists remote names and URLs.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-111",
+    "title": "Temporarily save changes",
+    "command": "git stash",
+    "category": "Git",
+    "description": "Stores working changes for later retrieval.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-112",
+    "title": "Restore a file",
+    "command": "git restore filename",
+    "category": "Git",
+    "description": "Discards unstaged changes to a file; use carefully.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "git-113",
+    "title": "Undo a commit safely",
+    "command": "git revert COMMIT",
+    "category": "Git",
+    "description": "Creates a new commit that reverses a previous commit.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "git-114",
+    "title": "Show a commit",
+    "command": "git show COMMIT",
+    "category": "Git",
+    "description": "Displays details and changes for a commit.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-115",
+    "title": "Search tracked files",
+    "command": "git grep TODO",
+    "category": "Git",
+    "description": "Searches tracked files for TODO.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-116",
+    "title": "Add remote",
+    "command": "git remote add origin URL",
+    "category": "Git",
+    "description": "Adds a remote named origin.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "git-117",
+    "title": "Show ignored files",
+    "command": "git status --ignored",
+    "category": "Git",
+    "description": "Includes ignored files in status output.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-118",
+    "title": "Check Python version",
+    "command": "python3 --version",
+    "category": "Python",
+    "description": "Displays the Python 3 version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-119",
+    "title": "Run a Python file",
+    "command": "python3 main.py",
+    "category": "Python",
+    "description": "Runs a Python script with Python 3.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-120",
+    "title": "Create virtual environment",
+    "command": "python3 -m venv .venv",
+    "category": "Python",
+    "description": "Creates an isolated Python environment in .venv.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-121",
+    "title": "Activate venv (Linux/macOS)",
+    "command": "source .venv/bin/activate",
+    "category": "Python",
+    "description": "Activates a project's virtual environment in Bash/Zsh.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-122",
+    "title": "Install dependencies",
+    "command": "python -m pip install -r requirements.txt",
+    "category": "Python",
+    "description": "Installs packages listed in requirements.txt.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-123",
+    "title": "Install a package",
+    "command": "python -m pip install PACKAGE",
+    "category": "Python",
+    "description": "Installs a package into the active Python environment.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-124",
+    "title": "List installed packages",
+    "command": "python -m pip list",
+    "category": "Python",
+    "description": "Lists installed packages in the selected environment.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-125",
+    "title": "Save dependency list",
+    "command": "python -m pip freeze > requirements.txt",
+    "category": "Python",
+    "description": "Writes installed package versions to a requirements file.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-126",
+    "title": "Compile-check Python syntax",
+    "command": "python -m py_compile main.py",
+    "category": "Python",
+    "description": "Checks whether a Python file compiles without running it.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-127",
+    "title": "Run unit tests",
+    "command": "python -m unittest",
+    "category": "Python",
+    "description": "Discovers and runs unittest tests.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-128",
+    "title": "Start Python REPL",
+    "command": "python3",
+    "category": "Python",
+    "description": "Opens the interactive Python interpreter; type exit() to leave.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-129",
+    "title": "Install editable project",
+    "command": "python -m pip install -e .",
+    "category": "Python",
+    "description": "Installs a package project in editable mode when packaging metadata exists.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-130",
+    "title": "Format with Black",
+    "command": "python -m black .",
+    "category": "Python",
+    "description": "Formats Python files if Black is installed.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "python-131",
+    "title": "Lint with Ruff",
+    "command": "ruff check .",
+    "category": "Python",
+    "description": "Checks Python code with Ruff if installed.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "javascript-132",
+    "title": "Check Node.js version",
+    "command": "node --version",
+    "category": "JavaScript",
+    "description": "Displays the Node.js version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "javascript-133",
+    "title": "Check npm version",
+    "command": "npm --version",
+    "category": "JavaScript",
+    "description": "Displays the npm version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "javascript-134",
+    "title": "Initialize Node project",
+    "command": "npm init -y",
+    "category": "JavaScript",
+    "description": "Creates a default package.json.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "javascript-135",
+    "title": "Install project dependencies",
+    "command": "npm install",
+    "category": "JavaScript",
+    "description": "Installs dependencies from package.json.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "javascript-136",
+    "title": "Run a JavaScript file",
+    "command": "node app.js",
+    "category": "JavaScript",
+    "description": "Runs a JavaScript file using Node.js.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "javascript-137",
+    "title": "Start npm script",
+    "command": "npm run dev",
+    "category": "JavaScript",
+    "description": "Runs the dev script if defined in package.json.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "web-development-138",
+    "title": "Start local Python web server",
+    "command": "python3 -m http.server 8000",
+    "category": "Web Development",
+    "description": "Serves the current directory over HTTP on port 8000; use only for trusted local development.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "web-development-139",
+    "title": "Check HTTP response headers",
+    "command": "curl -I https://example.com",
+    "category": "Web Development",
+    "description": "Requests response headers from a web server.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "web-development-140",
+    "title": "Validate JSON with Python",
+    "command": "python3 -m json.tool data.json",
+    "category": "Web Development",
+    "description": "Pretty-prints valid JSON or reports parsing errors.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "java-141",
+    "title": "Check Java version",
+    "command": "java --version",
+    "category": "Java",
+    "description": "Displays the Java runtime version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "java-142",
+    "title": "Check Java compiler",
+    "command": "javac --version",
+    "category": "Java",
+    "description": "Displays the Java compiler version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "java-143",
+    "title": "Compile Java class",
+    "command": "javac Main.java",
+    "category": "Java",
+    "description": "Compiles Main.java into bytecode.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "java-144",
+    "title": "Run compiled Java class",
+    "command": "java Main",
+    "category": "Java",
+    "description": "Runs the Main class from the current classpath.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "java-145",
+    "title": "Create runnable JAR",
+    "command": "jar --create --file app.jar --main-class Main *.class",
+    "category": "Java",
+    "description": "Packages class files into a JAR with Main as the entry point.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-146",
+    "title": "Show Docker version",
+    "command": "docker --version",
+    "category": "Docker",
+    "description": "Displays Docker client version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-147",
+    "title": "List running containers",
+    "command": "docker ps",
+    "category": "Docker",
+    "description": "Lists running containers.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-148",
+    "title": "List all containers",
+    "command": "docker ps -a",
+    "category": "Docker",
+    "description": "Lists running and stopped containers.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-149",
+    "title": "List local images",
+    "command": "docker images",
+    "category": "Docker",
+    "description": "Lists locally stored images.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-150",
+    "title": "View container logs",
+    "command": "docker logs CONTAINER",
+    "category": "Docker",
+    "description": "Displays logs for a container.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-151",
+    "title": "Compose up",
+    "command": "docker compose up -d",
+    "category": "Docker",
+    "description": "Starts services in the current Compose project in the background.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "docker-152",
+    "title": "Compose stop",
+    "command": "docker compose down",
+    "category": "Docker",
+    "description": "Stops and removes resources created by the Compose project; review volumes before using options that delete them.",
+    "example": "",
+    "tags": "",
+    "warning": "Review the command and replace placeholders before using."
+  },
+  {
+    "id": "database-153",
+    "title": "Open SQLite database",
+    "command": "sqlite3 app.db",
+    "category": "Database",
+    "description": "Opens a SQLite database file; requires sqlite3 CLI.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "database-154",
+    "title": "Dump PostgreSQL database",
+    "command": "pg_dump DBNAME > backup.sql",
+    "category": "Database",
+    "description": "Exports a PostgreSQL database; authentication and connection settings may be required.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "database-155",
+    "title": "Check SQLite integrity",
+    "command": "sqlite3 app.db 'PRAGMA integrity_check;'",
+    "category": "Database",
+    "description": "Runs SQLite's integrity check on the selected database.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-156",
+    "title": "Check Git version",
+    "command": "git --version",
+    "category": "Developer Tools",
+    "description": "Displays the installed Git version.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-157",
+    "title": "Check compiler version",
+    "command": "gcc --version",
+    "category": "Developer Tools",
+    "description": "Displays GCC compiler version if installed.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-158",
+    "title": "Check disk usage of current folder",
+    "command": "du -sh .",
+    "category": "Developer Tools",
+    "description": "Shows the total disk usage of the current folder.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-159",
+    "title": "Find large files (top-level)",
+    "command": "du -ah . | sort -h | tail -n 20",
+    "category": "Developer Tools",
+    "description": "Shows 20 largest entries by size under the current folder; output can include directories and files.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-160",
+    "title": "List USB devices",
+    "command": "lsusb",
+    "category": "Developer Tools",
+    "description": "Lists USB devices; may require usbutils.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-161",
+    "title": "List PCI devices",
+    "command": "lspci",
+    "category": "Developer Tools",
+    "description": "Lists PCI devices; may require pciutils.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-162",
+    "title": "Show loaded kernel modules",
+    "command": "lsmod",
+    "category": "Developer Tools",
+    "description": "Lists currently loaded kernel modules.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  },
+  {
+    "id": "developer-tools-163",
+    "title": "Show kernel messages",
+    "command": "dmesg --level=err,warn",
+    "category": "Developer Tools",
+    "description": "Displays kernel messages at error and warning levels; permissions vary.",
+    "example": "",
+    "tags": "",
+    "warning": ""
+  }
+]
